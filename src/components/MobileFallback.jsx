@@ -34,6 +34,13 @@ export default function MobileFallback() {
           <span>{contact.email}</span>
         </a>
         <a
+          href={`tel:${contact.phone}`}
+          className="flex items-center gap-3 rounded-[4px] border border-line bg-bg2 px-4 py-3 text-label text-syn-ident hover:border-accent-green hover:text-accent-green"
+        >
+          <span className="text-muted">☎</span>
+          <span>{contact.phone}</span>
+        </a>
+        <a
           href={`https://${contact.github}`}
           target="_blank"
           rel="noreferrer"

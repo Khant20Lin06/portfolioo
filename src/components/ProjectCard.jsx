@@ -4,37 +4,37 @@ const accents = { blue: '#58a6ff', orange: '#f0883e', purple: '#bc8cff', green: 
 
 // Extra detail shown when card is expanded
 const DETAILS = {
-  'orbit-analytics': {
-    stack: 'TypeScript · Kafka · ClickHouse · Redis · k8s',
-    lines: '48,200',
-    commits: '1,341',
-    contributors: 3,
+  'werte-food-delivery': {
+    stack: 'NestJS · TypeScript · PostgreSQL · Prisma ORM · Redis · BullMQ · WebSocket · Docker',
+    lines: '25,000+',
+    commits: '340+',
+    contributors: 1,
     status: 'production',
-    highlight: 'Handles 2.4M events/day with p99 latency < 12ms',
+    highlight: '25 modules · 49 DB models · 9-stage order status tracking',
   },
-  'forge-ci': {
-    stack: 'Go · Docker · gRPC · SQLite · Prometheus',
-    lines: '21,050',
-    commits: '882',
-    contributors: 2,
+  'eco-market': {
+    stack: 'NestJS · Node.js · PostgreSQL · Socket.io · JWT · RBAC · Swagger',
+    lines: '12,400',
+    commits: '180+',
+    contributors: 1,
     status: 'production',
-    highlight: 'Sub-100ms cold starts via pre-warmed OCI snapshots',
+    highlight: 'Modular NestJS backend · RBAC + JWT access/refresh token strategy',
   },
-  'atlas-design-system': {
-    stack: 'React · Radix · Storybook · Rollup · Chromatic',
-    lines: '34,700',
-    commits: '2,104',
-    contributors: 7,
+  'fashion-ecommerce': {
+    stack: 'Django · Python · DRF · Next.js · PostgreSQL · OTP · JWT',
+    lines: '9,800',
+    commits: '145',
+    contributors: 1,
     status: 'production',
-    highlight: 'WCAG 2.1 AA compliant · adopted by 40+ internal teams',
+    highlight: 'Product variants (size/color/SKU) · warehouse management · sales analytics',
   },
-  'sentinel-edge': {
-    stack: 'Rust · WASM · Cloudflare Workers · Terraform',
-    lines: '12,800',
-    commits: '567',
-    contributors: 2,
-    status: 'active',
-    highlight: '99.99% SLA · < 1ms WAF rule evaluation at edge',
+  'frappe-mobile-pos': {
+    stack: 'Flutter · Dart 3.10 · SQLite · Socket.io · GitHub Actions · CI/CD',
+    lines: '8,200',
+    commits: '210',
+    contributors: 1,
+    status: 'production',
+    highlight: 'Full cart · barcode scanning · 10+ reports · bilingual EN/MM UI',
   },
 }
 

@@ -55,6 +55,7 @@ export default function CvModal() {
               <div className="text-micro font-semibold text-syn-func mb-1">CONTACT</div>
               {[
                 { icon: '✉', val: contact.email },
+                { icon: '☎', val: contact.phone },
                 { icon: '⎔', val: contact.github },
                 { icon: '✈', val: contact.telegram },
               ].map(({ icon, val }) => (

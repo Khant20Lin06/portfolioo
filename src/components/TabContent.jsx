@@ -35,6 +35,9 @@ function ReadmeView() {
             <div><span className="text-muted">Email:</span>{' '}
               <a href={`mailto:${contact.email}`} className="text-syn-string hover:underline">{contact.email}</a>
             </div>
+            <div><span className="text-muted">Phone:</span>{' '}
+              <a href={`tel:${contact.phone}`} className="text-syn-string hover:underline">{contact.phone}</a>
+            </div>
             <div><span className="text-muted">GitHub:</span>{' '}
               <a href={`https://${contact.github}`} target="_blank" rel="noreferrer" className="text-syn-string hover:underline">{contact.github}</a>
             </div>
@@ -66,10 +69,11 @@ function ReadmeView() {
 function EnvView() {
   const vars = [
     { k: 'OWNER', v: me.name.toUpperCase().replace(' ', '_') },
-    { k: 'ROLE', v: 'SENIOR_FULLSTACK_DEVELOPER' },
+    { k: 'ROLE', v: 'BACKEND_DEVELOPER_NESTJS' },
     { k: 'LOCATION', v: me.location.toUpperCase().replace(', ', '_') },
     { k: 'EXPERIENCE_YEARS', v: String(me.experience) },
     { k: 'EMAIL', v: contact.email },
+    { k: 'PHONE', v: contact.phone },
     { k: 'GITHUB_URL', v: `https://${contact.github}` },
     { k: 'LINKEDIN_URL', v: `https://linkedin.com/${contact.linkedin}` },
     { k: 'TELEGRAM', v: contact.telegram },
