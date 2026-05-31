@@ -13,7 +13,7 @@ function ReadmeView() {
         <section>
           <h2 className="mb-2 text-[14px] font-semibold text-syn-func">## About</h2>
           <p className="leading-relaxed text-syn-ident/80">
-            Senior full-stack engineer with {me.experience}+ years building products at scale.
+            Full-stack engineer with {me.experience}+ years building products at scale.
             Shipped {me.shipped}+ projects for {me.clients}+ clients. Maintaining {me.uptime} uptime
             across distributed infrastructure.
           </p>
